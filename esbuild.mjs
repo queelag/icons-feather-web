@@ -26,10 +26,11 @@ build({
   ...OPTIONS,
   bundle: true,
   entryPoints: ['src/index.ts'],
+  external: ['@aracna/core', '@aracna/web', '@aracna/web-components'],
   format: 'cjs',
   outfile: 'dist/index.cjs',
   platform: 'neutral',
-  packages: 'external'
+  treeShaking: true
 }).catch(() => process.exit(1))
 
 /**
@@ -56,9 +57,11 @@ for (let element of await glob('./src/elements/**/*.ts')) {
     ...OPTIONS,
     bundle: true,
     entryPoints: [element],
+    external: ['@aracna/core', '@aracna/web', '@aracna/web-components'],
     format: 'cjs',
     outfile: element.replace('src', 'dist').replace('.ts', '.cjs'),
     packages: 'external',
-    platform: 'neutral'
+    platform: 'neutral',
+    treeShaking: true
   }).catch(() => process.exit(1))
 }

@@ -2039,7 +2039,8 @@
   "peerDependencies": {
     "@aracna/core": ">= 1.1.0",
     "@aracna/web": ">= 1.0.0",
-    "@aracna/web-components": ">= 1.0.0"
+    "@aracna/web-components": ">= 1.0.0",
+    "lit": ">= 2.7.0"
   },
   "repository": "https://github.com/aracna/icons-feather-web",
   "scripts": {
