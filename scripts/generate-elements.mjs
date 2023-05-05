@@ -30,7 +30,7 @@ for (let asset of await glob('assets/*.svg')) {
         constructor() {
           super()
 
-          this.fill = 'none'
+          this.fill = 'inherit'
           this.size = 16
           this.src = '${svg}'
           this.stroke = 'inherit'
@@ -43,6 +43,7 @@ for (let asset of await glob('assets/*.svg')) {
           super.styles,
           css\`
             :host {
+              fill: none;
               stroke: black;
             }
           \`
