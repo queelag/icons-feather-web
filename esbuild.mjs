@@ -27,7 +27,7 @@ build({
   bundle: true,
   entryPoints: ['src/index.ts'],
   format: 'cjs',
-  outfile: 'dist/index.cjs.js',
+  outfile: 'dist/index.cjs',
   platform: 'neutral',
   packages: 'external'
 }).catch(() => process.exit(1))
@@ -57,7 +57,7 @@ for (let element of await glob('./src/elements/**/*.ts')) {
     bundle: true,
     entryPoints: [element],
     format: 'cjs',
-    outfile: element.replace('src', 'dist').replace('.ts', '.cjs.js'),
+    outfile: element.replace('src', 'dist').replace('.ts', '.cjs'),
     packages: 'external',
     platform: 'neutral'
   }).catch(() => process.exit(1))
