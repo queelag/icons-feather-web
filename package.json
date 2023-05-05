@@ -1,0 +1,42 @@
+{
+  "author": "Dario Sechi",
+  "devDependencies": {
+    "@aracna/core": "^1.1.25",
+    "@aracna/web": "^1.0.24",
+    "@aracna/web-components": "^1.0.22",
+    "@microsoft/api-extractor": "^7.34.8",
+    "@types/prettier": "^2.7.2",
+    "@vitest/coverage-c8": "^0.31.0",
+    "@vitest/ui": "^0.31.0",
+    "@webcomponents/template-shadowroot": "^0.2.1",
+    "esbuild": "^0.17.18",
+    "glob": "^10.2.2",
+    "jsdom": "^22.0.0",
+    "lit": "^2.7.4",
+    "lit-html": "^2.7.3",
+    "prettier": "^2.8.8",
+    "ts-lit-plugin": "^1.2.1",
+    "tslib": "^2.5.0",
+    "typedoc": "^0.24.6",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@aracna/icons-feather-web",
+  "peerDependencies": {
+    "@aracna/core": ">= 1.1.0",
+    "@aracna/web": ">= 1.0.0",
+    "@aracna/web-components": ">= 1.0.0"
+  },
+  "repository": "https://github.com/aracna/icons-feather-web",
+  "scripts": {
+    "test": "vitest run",
+    "build": "rm -rf dist && node esbuild.mjs && yarn tsc && node scripts/emit-cjs-declarations.mjs && yarn api-extractor run --local",
+    "tarball": "yarn version && cp LICENSE package.json README.md dist/. && cd dist && yarn pack",
+    "deploy": "yarn test && yarn build && yarn tarball && yarn publish dist/*.tgz"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "1.0.0"
+}
