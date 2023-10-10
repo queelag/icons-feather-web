@@ -2,6 +2,7 @@
   "author": "Dario Sechi",
   "devDependencies": {
     "@aracna/core": "^1.1.41",
+    "@aracna/icons-feather": "^1.0.2",
     "@aracna/web": "^1.0.35",
     "@aracna/web-components": "^1.0.34",
     "@microsoft/api-extractor": "^7.36.4",
@@ -2038,6 +2039,7 @@
   "name": "@aracna/icons-feather-web",
   "peerDependencies": {
     "@aracna/core": ">= 1.1.0",
+    "@aracna/icons-feather": ">= 1.0.0",
     "@aracna/web": ">= 1.0.0",
     "@aracna/web-components": ">= 1.0.0",
     "lit": ">= 2.7.0"

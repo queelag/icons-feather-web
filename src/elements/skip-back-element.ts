@@ -1,3 +1,4 @@
+import { ICON_FEATHER_SKIP_BACK } from '@aracna/icons-feather'
 import { defineCustomElement } from '@aracna/web'
 import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
 import { css, CSSResultGroup } from 'lit'
@@ -14,8 +15,7 @@ export class IconFeatherSkipBackElement extends IconElement {
 
     this.fill = 'inherit'
     this.size = 16
-    this.src =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-skip-back"><polygon points="19 20 9 12 19 4 19 20"></polygon><line x1="5" y1="19" x2="5" y2="5"></line></svg>'
+    this.src = ICON_FEATHER_SKIP_BACK
     this.stroke = 'inherit'
     this.strokeLineCap = 'round'
     this.strokeLineJoin = 'round'

@@ -1,3 +1,4 @@
+import { ICON_FEATHER_TABLET } from '@aracna/icons-feather'
 import { defineCustomElement } from '@aracna/web'
 import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
 import { css, CSSResultGroup } from 'lit'
@@ -14,8 +15,7 @@ export class IconFeatherTabletElement extends IconElement {
 
     this.fill = 'inherit'
     this.size = 16
-    this.src =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tablet"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>'
+    this.src = ICON_FEATHER_TABLET
     this.stroke = 'inherit'
     this.strokeLineCap = 'round'
     this.strokeLineJoin = 'round'

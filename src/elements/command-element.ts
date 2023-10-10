@@ -1,3 +1,4 @@
+import { ICON_FEATHER_COMMAND } from '@aracna/icons-feather'
 import { defineCustomElement } from '@aracna/web'
 import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
 import { css, CSSResultGroup } from 'lit'
@@ -14,8 +15,7 @@ export class IconFeatherCommandElement extends IconElement {
 
     this.fill = 'inherit'
     this.size = 16
-    this.src =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-command"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"></path></svg>'
+    this.src = ICON_FEATHER_COMMAND
     this.stroke = 'inherit'
     this.strokeLineCap = 'round'
     this.strokeLineJoin = 'round'

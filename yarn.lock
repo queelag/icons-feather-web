@@ -21,6 +21,11 @@
     node-fetch "^3.3.2"
     rfc4648 "^1.5.2"
 
+"@aracna/icons-feather@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@aracna/icons-feather/-/icons-feather-1.0.2.tgz#571cf7f741355924ea1ed09cd429f060942f650c"
+  integrity sha512-J5BOeHmeTTf8OkXCsI9ZyiDFsJXzmnIUbDiLXGUglMo3N9WRfp2rUkzmJ388zZlXX94domsSMkpp7+HGDQ8DoA==
+
 "@aracna/web-components@^1.0.34":
   version "1.0.34"
   resolved "https://registry.yarnpkg.com/@aracna/web-components/-/web-components-1.0.34.tgz#c25174089998511b24f5a762ecdda3a5d9ecb98c"
