@@ -1,36 +1,18 @@
 import { ICON_FEATHER_MESSAGE_CIRCLE } from '@aracna/icons-feather'
 import { defineCustomElement } from '@aracna/web'
-import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
-import { css, CSSResultGroup } from 'lit'
+import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-message-circle': IconElement
+    'icon-feather-message-circle': IconFeatherElement
   }
 }
 
-export class IconFeatherMessageCircleElement extends IconElement {
+export class IconFeatherMessageCircleElement extends IconFeatherElement {
   constructor() {
     super()
-
-    this.fill = 'inherit'
-    this.size = 16
     this.src = ICON_FEATHER_MESSAGE_CIRCLE
-    this.stroke = 'inherit'
-    this.strokeLineCap = 'round'
-    this.strokeLineJoin = 'round'
-    this.strokeWidth = '2'
   }
-
-  static styles: CSSResultGroup = [
-    super.styles,
-    css`
-      :host {
-        fill: none;
-        stroke: black;
-      }
-    `
-  ]
 }
 
 defineCustomElement('icon-feather-message-circle', IconFeatherMessageCircleElement)

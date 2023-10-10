@@ -1,36 +1,18 @@
 import { ICON_FEATHER_TRENDING_DOWN } from '@aracna/icons-feather'
 import { defineCustomElement } from '@aracna/web'
-import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
-import { css, CSSResultGroup } from 'lit'
+import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-trending-down': IconElement
+    'icon-feather-trending-down': IconFeatherElement
   }
 }
 
-export class IconFeatherTrendingDownElement extends IconElement {
+export class IconFeatherTrendingDownElement extends IconFeatherElement {
   constructor() {
     super()
-
-    this.fill = 'inherit'
-    this.size = 16
     this.src = ICON_FEATHER_TRENDING_DOWN
-    this.stroke = 'inherit'
-    this.strokeLineCap = 'round'
-    this.strokeLineJoin = 'round'
-    this.strokeWidth = '2'
   }
-
-  static styles: CSSResultGroup = [
-    super.styles,
-    css`
-      :host {
-        fill: none;
-        stroke: black;
-      }
-    `
-  ]
 }
 
 defineCustomElement('icon-feather-trending-down', IconFeatherTrendingDownElement)

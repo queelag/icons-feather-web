@@ -1,36 +1,18 @@
 import { ICON_FEATHER_CLOUD_DRIZZLE } from '@aracna/icons-feather'
 import { defineCustomElement } from '@aracna/web'
-import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
-import { css, CSSResultGroup } from 'lit'
+import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-cloud-drizzle': IconElement
+    'icon-feather-cloud-drizzle': IconFeatherElement
   }
 }
 
-export class IconFeatherCloudDrizzleElement extends IconElement {
+export class IconFeatherCloudDrizzleElement extends IconFeatherElement {
   constructor() {
     super()
-
-    this.fill = 'inherit'
-    this.size = 16
     this.src = ICON_FEATHER_CLOUD_DRIZZLE
-    this.stroke = 'inherit'
-    this.strokeLineCap = 'round'
-    this.strokeLineJoin = 'round'
-    this.strokeWidth = '2'
   }
-
-  static styles: CSSResultGroup = [
-    super.styles,
-    css`
-      :host {
-        fill: none;
-        stroke: black;
-      }
-    `
-  ]
 }
 
 defineCustomElement('icon-feather-cloud-drizzle', IconFeatherCloudDrizzleElement)

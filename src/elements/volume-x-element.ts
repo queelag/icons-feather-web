@@ -1,36 +1,18 @@
 import { ICON_FEATHER_VOLUME_X } from '@aracna/icons-feather'
 import { defineCustomElement } from '@aracna/web'
-import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
-import { css, CSSResultGroup } from 'lit'
+import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-volume-x': IconElement
+    'icon-feather-volume-x': IconFeatherElement
   }
 }
 
-export class IconFeatherVolumeXElement extends IconElement {
+export class IconFeatherVolumeXElement extends IconFeatherElement {
   constructor() {
     super()
-
-    this.fill = 'inherit'
-    this.size = 16
     this.src = ICON_FEATHER_VOLUME_X
-    this.stroke = 'inherit'
-    this.strokeLineCap = 'round'
-    this.strokeLineJoin = 'round'
-    this.strokeWidth = '2'
   }
-
-  static styles: CSSResultGroup = [
-    super.styles,
-    css`
-      :host {
-        fill: none;
-        stroke: black;
-      }
-    `
-  ]
 }
 
 defineCustomElement('icon-feather-volume-x', IconFeatherVolumeXElement)

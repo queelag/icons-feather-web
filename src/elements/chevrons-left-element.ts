@@ -1,36 +1,18 @@
 import { ICON_FEATHER_CHEVRONS_LEFT } from '@aracna/icons-feather'
 import { defineCustomElement } from '@aracna/web'
-import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
-import { css, CSSResultGroup } from 'lit'
+import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-chevrons-left': IconElement
+    'icon-feather-chevrons-left': IconFeatherElement
   }
 }
 
-export class IconFeatherChevronsLeftElement extends IconElement {
+export class IconFeatherChevronsLeftElement extends IconFeatherElement {
   constructor() {
     super()
-
-    this.fill = 'inherit'
-    this.size = 16
     this.src = ICON_FEATHER_CHEVRONS_LEFT
-    this.stroke = 'inherit'
-    this.strokeLineCap = 'round'
-    this.strokeLineJoin = 'round'
-    this.strokeWidth = '2'
   }
-
-  static styles: CSSResultGroup = [
-    super.styles,
-    css`
-      :host {
-        fill: none;
-        stroke: black;
-      }
-    `
-  ]
 }
 
 defineCustomElement('icon-feather-chevrons-left', IconFeatherChevronsLeftElement)

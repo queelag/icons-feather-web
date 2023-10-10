@@ -17,37 +17,19 @@ for (let key in SVGS) {
     <script>
       import { ${key} } from '@aracna/icons-feather'
       import { defineCustomElement } from '@aracna/web'
-      import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
-      import { css, CSSResultGroup } from 'lit'
+      import { IconFeatherElement } from '../icon-feather-element.js'
 
       declare global {
         interface HTMLElementTagNameMap {
-          'icon-feather-${name}': IconElement
+          'icon-feather-${name}': IconFeatherElement
         }
       }
 
-      export class ${ename} extends IconElement {
+      export class ${ename} extends IconFeatherElement {
         constructor() {
           super()
-
-          this.fill = 'inherit'
-          this.size = 16
           this.src = ${key}
-          this.stroke = 'inherit'
-          this.strokeLineCap = 'round'
-          this.strokeLineJoin = 'round'
-          this.strokeWidth = '2'
         }
-
-        static styles: CSSResultGroup = [
-          super.styles,
-          css\`
-            :host {
-              fill: none;
-              stroke: black;
-            }
-          \`
-        ]
       }
 
       defineCustomElement('icon-feather-${name}', ${ename})

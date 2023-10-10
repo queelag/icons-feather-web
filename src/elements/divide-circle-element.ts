@@ -1,36 +1,18 @@
 import { ICON_FEATHER_DIVIDE_CIRCLE } from '@aracna/icons-feather'
 import { defineCustomElement } from '@aracna/web'
-import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
-import { css, CSSResultGroup } from 'lit'
+import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-divide-circle': IconElement
+    'icon-feather-divide-circle': IconFeatherElement
   }
 }
 
-export class IconFeatherDivideCircleElement extends IconElement {
+export class IconFeatherDivideCircleElement extends IconFeatherElement {
   constructor() {
     super()
-
-    this.fill = 'inherit'
-    this.size = 16
     this.src = ICON_FEATHER_DIVIDE_CIRCLE
-    this.stroke = 'inherit'
-    this.strokeLineCap = 'round'
-    this.strokeLineJoin = 'round'
-    this.strokeWidth = '2'
   }
-
-  static styles: CSSResultGroup = [
-    super.styles,
-    css`
-      :host {
-        fill: none;
-        stroke: black;
-      }
-    `
-  ]
 }
 
 defineCustomElement('icon-feather-divide-circle', IconFeatherDivideCircleElement)
