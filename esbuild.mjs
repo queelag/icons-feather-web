@@ -26,7 +26,7 @@ build({
   ...OPTIONS,
   bundle: true,
   entryPoints: ['src/index.ts'],
-  external: ['@aracna/core', '@aracna/web', '@aracna/web-components'],
+  external: ['@aracna/core', '@aracna/icons-feather', '@aracna/web', '@aracna/web-components'],
   format: 'cjs',
   outfile: 'dist/index.cjs',
   platform: 'neutral',
@@ -41,6 +41,7 @@ build({
   bundle: true,
   entryPoints: ['src/index.ts'],
   format: 'iife',
+  globalName: 'AracnaIconsFeatherWeb',
   outfile: 'dist/index.iife.js',
   platform: 'browser',
   treeShaking: true
@@ -57,10 +58,9 @@ for (let element of await glob('./src/elements/**/*.ts')) {
     ...OPTIONS,
     bundle: true,
     entryPoints: [element],
-    external: ['@aracna/core', '@aracna/web', '@aracna/web-components'],
+    external: ['@aracna/core', '@aracna/icons-feather', '@aracna/web', '@aracna/web-components'],
     format: 'cjs',
     outfile: element.replace('src', 'dist').replace('.ts', '.cjs'),
-    packages: 'external',
     platform: 'neutral',
     treeShaking: true
   }).catch(() => process.exit(1))
