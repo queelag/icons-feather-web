@@ -1,10 +1,12 @@
 import { build } from 'esbuild'
+import { minifyHTMLLiteralsPlugin } from 'esbuild-plugin-minify-html-literals'
 import { glob } from 'glob'
 
 /** @type {import('esbuild').BuildOptions} */
 const OPTIONS = {
   logLevel: 'info',
-  minify: true
+  minify: true,
+  plugins: [minifyHTMLLiteralsPlugin()]
 }
 
 /**
@@ -26,9 +28,9 @@ build({
   ...OPTIONS,
   bundle: true,
   entryPoints: ['src/index.ts'],
-  external: ['@aracna/core', '@aracna/icons-feather', '@aracna/web', '@aracna/web-components', 'dompurify'],
   format: 'cjs',
   outfile: 'dist/index.cjs',
+  packages: 'external',
   platform: 'neutral',
   treeShaking: true
 }).catch(() => process.exit(1))
@@ -44,9 +46,9 @@ for (let element of await glob('./src/elements/**/*.ts')) {
     ...OPTIONS,
     bundle: true,
     entryPoints: [element],
-    external: ['@aracna/core', '@aracna/icons-feather', '@aracna/web', '@aracna/web-components', 'dompurify'],
     format: 'cjs',
     outfile: element.replace('src', 'dist').replace('.ts', '.cjs'),
+    packages: 'external',
     platform: 'neutral',
     treeShaking: true
   }).catch(() => process.exit(1))
