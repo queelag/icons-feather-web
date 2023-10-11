@@ -1,4 +1,4 @@
-import { ICON_FEATHER_TRENDING_DOWN } from '@aracna/icons-feather'
+import { ICON_FEATHER_TRENDING_DOWN } from '@aracna/icons-feather/assets/trending-down'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

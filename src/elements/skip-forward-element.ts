@@ -1,4 +1,4 @@
-import { ICON_FEATHER_SKIP_FORWARD } from '@aracna/icons-feather'
+import { ICON_FEATHER_SKIP_FORWARD } from '@aracna/icons-feather/assets/skip-forward'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

@@ -1,4 +1,4 @@
-import { IconElement } from '@aracna/web-components/elements/data/icon-element.js'
+import { IconElement } from '@aracna/web-components/elements/data/icon-element'
 import { CSSResultGroup, css } from 'lit'
 
 export class IconFeatherElement extends IconElement {

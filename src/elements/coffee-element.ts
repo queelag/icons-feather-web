@@ -1,4 +1,4 @@
-import { ICON_FEATHER_COFFEE } from '@aracna/icons-feather'
+import { ICON_FEATHER_COFFEE } from '@aracna/icons-feather/assets/coffee'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

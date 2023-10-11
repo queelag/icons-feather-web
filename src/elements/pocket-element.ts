@@ -1,4 +1,4 @@
-import { ICON_FEATHER_POCKET } from '@aracna/icons-feather'
+import { ICON_FEATHER_POCKET } from '@aracna/icons-feather/assets/pocket'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

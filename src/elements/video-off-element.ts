@@ -1,4 +1,4 @@
-import { ICON_FEATHER_VIDEO_OFF } from '@aracna/icons-feather'
+import { ICON_FEATHER_VIDEO_OFF } from '@aracna/icons-feather/assets/video-off'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

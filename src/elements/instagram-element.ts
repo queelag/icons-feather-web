@@ -1,4 +1,4 @@
-import { ICON_FEATHER_INSTAGRAM } from '@aracna/icons-feather'
+import { ICON_FEATHER_INSTAGRAM } from '@aracna/icons-feather/assets/instagram'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

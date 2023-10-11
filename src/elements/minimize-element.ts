@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MINIMIZE } from '@aracna/icons-feather'
+import { ICON_FEATHER_MINIMIZE } from '@aracna/icons-feather/assets/minimize'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

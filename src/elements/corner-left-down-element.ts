@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CORNER_LEFT_DOWN } from '@aracna/icons-feather'
+import { ICON_FEATHER_CORNER_LEFT_DOWN } from '@aracna/icons-feather/assets/corner-left-down'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

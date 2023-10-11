@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CLOUD_RAIN } from '@aracna/icons-feather'
+import { ICON_FEATHER_CLOUD_RAIN } from '@aracna/icons-feather/assets/cloud-rain'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

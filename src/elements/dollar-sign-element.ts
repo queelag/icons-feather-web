@@ -1,4 +1,4 @@
-import { ICON_FEATHER_DOLLAR_SIGN } from '@aracna/icons-feather'
+import { ICON_FEATHER_DOLLAR_SIGN } from '@aracna/icons-feather/assets/dollar-sign'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

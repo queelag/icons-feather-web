@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ROTATE_CCW } from '@aracna/icons-feather'
+import { ICON_FEATHER_ROTATE_CCW } from '@aracna/icons-feather/assets/rotate-ccw'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

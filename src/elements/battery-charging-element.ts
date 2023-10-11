@@ -1,4 +1,4 @@
-import { ICON_FEATHER_BATTERY_CHARGING } from '@aracna/icons-feather'
+import { ICON_FEATHER_BATTERY_CHARGING } from '@aracna/icons-feather/assets/battery-charging'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

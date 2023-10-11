@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ALERT_OCTAGON } from '@aracna/icons-feather'
+import { ICON_FEATHER_ALERT_OCTAGON } from '@aracna/icons-feather/assets/alert-octagon'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

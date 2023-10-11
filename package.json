@@ -5,7 +5,6 @@
     "@aracna/icons-feather": "^1.0.2",
     "@aracna/web": "^1.0.35",
     "@aracna/web-components": "^1.0.34",
-    "@microsoft/api-extractor": "^7.36.4",
     "@types/prettier": "^3.0.0",
     "@vitest/coverage-v8": "^0.34.2",
     "@vitest/ui": "^0.34.2",
@@ -23,6 +22,18 @@
     "typescript": "^5.1.6",
     "vitest": "^0.34.2"
   },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    },
+    "./elements/*": {
+      "import": "./elements/*.js",
+      "require": "./elements/*.cjs",
+      "types": "./elements/*.d.ts"
+    }
+  },
   "license": "MIT",
   "main": "index.cjs",
   "module": "index.js",
@@ -37,8 +48,8 @@
   "repository": "https://github.com/aracna/icons-feather-web",
   "scripts": {
     "test": "vitest run",
-    "build": "rm -rf dist && node esbuild.mjs && yarn tsc && node scripts/emit-cjs-declarations.mjs && yarn api-extractor run --local",
-    "tarball": "yarn version && cp LICENSE package.json README.md dist/. && node scripts/set-package-exports.mjs && cd dist && yarn pack",
+    "build": "rm -rf dist && node esbuild.mjs && yarn tsc",
+    "tarball": "yarn version && cp LICENSE package.json README.md dist/. && cd dist && yarn pack",
     "deploy": "yarn test && yarn build && yarn tarball && yarn publish dist/*.tgz"
   },
   "sideEffects": false,

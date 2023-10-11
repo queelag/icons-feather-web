@@ -1,4 +1,4 @@
-import { ICON_FEATHER_SEARCH } from '@aracna/icons-feather'
+import { ICON_FEATHER_SEARCH } from '@aracna/icons-feather/assets/search'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

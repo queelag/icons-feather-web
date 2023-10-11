@@ -1,4 +1,4 @@
-import { ICON_FEATHER_PHONE_INCOMING } from '@aracna/icons-feather'
+import { ICON_FEATHER_PHONE_INCOMING } from '@aracna/icons-feather/assets/phone-incoming'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

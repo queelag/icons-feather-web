@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MOUSE_POINTER } from '@aracna/icons-feather'
+import { ICON_FEATHER_MOUSE_POINTER } from '@aracna/icons-feather/assets/mouse-pointer'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

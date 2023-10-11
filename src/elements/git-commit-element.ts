@@ -1,4 +1,4 @@
-import { ICON_FEATHER_GIT_COMMIT } from '@aracna/icons-feather'
+import { ICON_FEATHER_GIT_COMMIT } from '@aracna/icons-feather/assets/git-commit'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

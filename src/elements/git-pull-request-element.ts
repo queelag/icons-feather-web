@@ -1,4 +1,4 @@
-import { ICON_FEATHER_GIT_PULL_REQUEST } from '@aracna/icons-feather'
+import { ICON_FEATHER_GIT_PULL_REQUEST } from '@aracna/icons-feather/assets/git-pull-request'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

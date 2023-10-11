@@ -1,4 +1,4 @@
-import { ICON_FEATHER_PRINTER } from '@aracna/icons-feather'
+import { ICON_FEATHER_PRINTER } from '@aracna/icons-feather/assets/printer'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_AIRPLAY } from '@aracna/icons-feather'
+import { ICON_FEATHER_AIRPLAY } from '@aracna/icons-feather/assets/airplay'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

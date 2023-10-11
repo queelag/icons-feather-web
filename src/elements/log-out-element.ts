@@ -1,4 +1,4 @@
-import { ICON_FEATHER_LOG_OUT } from '@aracna/icons-feather'
+import { ICON_FEATHER_LOG_OUT } from '@aracna/icons-feather/assets/log-out'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

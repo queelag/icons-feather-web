@@ -1,4 +1,4 @@
-import { ICON_FEATHER_FAST_FORWARD } from '@aracna/icons-feather'
+import { ICON_FEATHER_FAST_FORWARD } from '@aracna/icons-feather/assets/fast-forward'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

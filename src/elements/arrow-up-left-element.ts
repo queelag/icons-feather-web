@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ARROW_UP_LEFT } from '@aracna/icons-feather'
+import { ICON_FEATHER_ARROW_UP_LEFT } from '@aracna/icons-feather/assets/arrow-up-left'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

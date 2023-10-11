@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MORE_HORIZONTAL } from '@aracna/icons-feather'
+import { ICON_FEATHER_MORE_HORIZONTAL } from '@aracna/icons-feather/assets/more-horizontal'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

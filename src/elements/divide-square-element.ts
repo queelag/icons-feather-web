@@ -1,4 +1,4 @@
-import { ICON_FEATHER_DIVIDE_SQUARE } from '@aracna/icons-feather'
+import { ICON_FEATHER_DIVIDE_SQUARE } from '@aracna/icons-feather/assets/divide-square'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

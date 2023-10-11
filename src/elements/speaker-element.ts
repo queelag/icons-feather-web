@@ -1,4 +1,4 @@
-import { ICON_FEATHER_SPEAKER } from '@aracna/icons-feather'
+import { ICON_FEATHER_SPEAKER } from '@aracna/icons-feather/assets/speaker'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

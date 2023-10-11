@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ARROW_DOWN } from '@aracna/icons-feather'
+import { ICON_FEATHER_ARROW_DOWN } from '@aracna/icons-feather/assets/arrow-down'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

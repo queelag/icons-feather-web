@@ -1,4 +1,4 @@
-import { ICON_FEATHER_TARGET } from '@aracna/icons-feather'
+import { ICON_FEATHER_TARGET } from '@aracna/icons-feather/assets/target'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_UNLOCK } from '@aracna/icons-feather'
+import { ICON_FEATHER_UNLOCK } from '@aracna/icons-feather/assets/unlock'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

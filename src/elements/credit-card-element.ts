@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CREDIT_CARD } from '@aracna/icons-feather'
+import { ICON_FEATHER_CREDIT_CARD } from '@aracna/icons-feather/assets/credit-card'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

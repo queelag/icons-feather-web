@@ -1,4 +1,4 @@
-import { ICON_FEATHER_SHOPPING_CART } from '@aracna/icons-feather'
+import { ICON_FEATHER_SHOPPING_CART } from '@aracna/icons-feather/assets/shopping-cart'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

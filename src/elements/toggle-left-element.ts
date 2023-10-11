@@ -1,4 +1,4 @@
-import { ICON_FEATHER_TOGGLE_LEFT } from '@aracna/icons-feather'
+import { ICON_FEATHER_TOGGLE_LEFT } from '@aracna/icons-feather/assets/toggle-left'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

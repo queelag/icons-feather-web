@@ -1,4 +1,4 @@
-import { ICON_FEATHER_RSS } from '@aracna/icons-feather'
+import { ICON_FEATHER_RSS } from '@aracna/icons-feather/assets/rss'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

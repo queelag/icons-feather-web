@@ -1,4 +1,4 @@
-import { ICON_FEATHER_BAR_CHART_2 } from '@aracna/icons-feather'
+import { ICON_FEATHER_BAR_CHART_2 } from '@aracna/icons-feather/assets/bar-chart-2'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

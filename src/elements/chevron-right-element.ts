@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CHEVRON_RIGHT } from '@aracna/icons-feather'
+import { ICON_FEATHER_CHEVRON_RIGHT } from '@aracna/icons-feather/assets/chevron-right'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

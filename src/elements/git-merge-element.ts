@@ -1,4 +1,4 @@
-import { ICON_FEATHER_GIT_MERGE } from '@aracna/icons-feather'
+import { ICON_FEATHER_GIT_MERGE } from '@aracna/icons-feather/assets/git-merge'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

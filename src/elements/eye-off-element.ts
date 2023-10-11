@@ -1,4 +1,4 @@
-import { ICON_FEATHER_EYE_OFF } from '@aracna/icons-feather'
+import { ICON_FEATHER_EYE_OFF } from '@aracna/icons-feather/assets/eye-off'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

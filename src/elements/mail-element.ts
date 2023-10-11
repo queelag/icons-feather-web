@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MAIL } from '@aracna/icons-feather'
+import { ICON_FEATHER_MAIL } from '@aracna/icons-feather/assets/mail'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

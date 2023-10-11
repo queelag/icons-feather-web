@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MAP_PIN } from '@aracna/icons-feather'
+import { ICON_FEATHER_MAP_PIN } from '@aracna/icons-feather/assets/map-pin'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

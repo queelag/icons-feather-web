@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MESSAGE_CIRCLE } from '@aracna/icons-feather'
+import { ICON_FEATHER_MESSAGE_CIRCLE } from '@aracna/icons-feather/assets/message-circle'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

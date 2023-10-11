@@ -1,4 +1,4 @@
-import { ICON_FEATHER_LIFE_BUOY } from '@aracna/icons-feather'
+import { ICON_FEATHER_LIFE_BUOY } from '@aracna/icons-feather/assets/life-buoy'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

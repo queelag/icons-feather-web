@@ -1,21 +1,23 @@
-import { getKebabCaseString, getPascalCaseString } from '@aracna/core'
-import * as SVGS from '@aracna/icons-feather'
-import { appendFile, mkdir, rm, writeFile } from 'fs/promises'
+import { getPascalCaseString, getSnakeCaseString } from '@aracna/core'
+import { mkdir, rm, writeFile } from 'fs/promises'
+import { glob } from 'glob'
 import { format } from 'prettier'
+
+const ASSETS = await glob('node_modules/@aracna/icons-feather/assets/*.cjs')
 
 await rm('src/elements', { force: true, recursive: true })
 await mkdir('src/elements')
-await writeFile('src/index.ts', '')
 
-for (let key in SVGS) {
-  let name, ename, ts
+for (let asset of ASSETS) {
+  let name, cname, ename, ts
 
-  name = getKebabCaseString(key.replace('ICON_FEATHER_', '').toLowerCase())
+  name = asset.replace('node_modules/@aracna/icons-feather/assets/', '').replace('.cjs', '')
+  cname = 'ICON_FEATHER_' + getSnakeCaseString(name).toUpperCase()
   ename = 'IconFeather' + getPascalCaseString(name) + 'Element'
 
   ts = /* HTML */ `
     <script>
-      import { ${key} } from '@aracna/icons-feather'
+      import { ${cname} } from '@aracna/icons-feather/assets/${name}'
       import { defineCustomElement } from '@aracna/web'
       import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -28,7 +30,7 @@ for (let key in SVGS) {
       export class ${ename} extends IconFeatherElement {
         constructor() {
           super()
-          this.src = ${key}
+          this.src = ${cname}
         }
       }
 
@@ -46,5 +48,4 @@ for (let key in SVGS) {
   })
 
   await writeFile(`src/elements/${name}-element.ts`, ts)
-  await appendFile('src/index.ts', `export * from './elements/${name}-element.js'\n`)
 }

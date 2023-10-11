@@ -1,4 +1,4 @@
-import { ICON_FEATHER_REFRESH_CW } from '@aracna/icons-feather'
+import { ICON_FEATHER_REFRESH_CW } from '@aracna/icons-feather/assets/refresh-cw'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_FOLDER_MINUS } from '@aracna/icons-feather'
+import { ICON_FEATHER_FOLDER_MINUS } from '@aracna/icons-feather/assets/folder-minus'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
