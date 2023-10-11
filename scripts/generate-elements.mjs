@@ -23,7 +23,7 @@ for (let asset of ASSETS) {
 
       declare global {
         interface HTMLElementTagNameMap {
-          'icon-feather-${name}': IconFeatherElement
+          'icon-feather-${name}': ${ename}
         }
       }
 

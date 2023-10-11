@@ -4,7 +4,7 @@ import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-zoom-out': IconFeatherElement
+    'icon-feather-zoom-out': IconFeatherZoomOutElement
   }
 }
 

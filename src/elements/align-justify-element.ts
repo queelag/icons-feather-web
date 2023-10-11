@@ -4,7 +4,7 @@ import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-align-justify': IconFeatherElement
+    'icon-feather-align-justify': IconFeatherAlignJustifyElement
   }
 }
 

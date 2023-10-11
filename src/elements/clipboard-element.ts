@@ -4,7 +4,7 @@ import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-clipboard': IconFeatherElement
+    'icon-feather-clipboard': IconFeatherClipboardElement
   }
 }
 

@@ -4,7 +4,7 @@ import { IconFeatherElement } from '../icon-feather-element.js'
 
 declare global {
   interface HTMLElementTagNameMap {
-    'icon-feather-skip-forward': IconFeatherElement
+    'icon-feather-skip-forward': IconFeatherSkipForwardElement
   }
 }
 
