@@ -1,4 +1,4 @@
-import { ICON_FEATHER_THERMOMETER } from '@aracna/icons-feather/assets/thermometer'
+import { ICON_F_THERMOMETER } from '@aracna/icons-feather/assets/thermometer'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherThermometerElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_THERMOMETER
+    this.src = ICON_F_THERMOMETER
   }
 }
 

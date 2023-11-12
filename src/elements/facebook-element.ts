@@ -1,4 +1,4 @@
-import { ICON_FEATHER_FACEBOOK } from '@aracna/icons-feather/assets/facebook'
+import { ICON_F_FACEBOOK } from '@aracna/icons-feather/assets/facebook'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherFacebookElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_FACEBOOK
+    this.src = ICON_F_FACEBOOK
   }
 }
 

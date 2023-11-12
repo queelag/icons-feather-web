@@ -1,4 +1,4 @@
-import { ICON_FEATHER_FRAMER } from '@aracna/icons-feather/assets/framer'
+import { ICON_F_FRAMER } from '@aracna/icons-feather/assets/framer'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherFramerElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_FRAMER
+    this.src = ICON_F_FRAMER
   }
 }
 

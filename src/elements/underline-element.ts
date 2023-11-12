@@ -1,4 +1,4 @@
-import { ICON_FEATHER_UNDERLINE } from '@aracna/icons-feather/assets/underline'
+import { ICON_F_UNDERLINE } from '@aracna/icons-feather/assets/underline'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherUnderlineElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_UNDERLINE
+    this.src = ICON_F_UNDERLINE
   }
 }
 

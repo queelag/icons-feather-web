@@ -1,4 +1,4 @@
-import { ICON_FEATHER_TV } from '@aracna/icons-feather/assets/tv'
+import { ICON_F_TV } from '@aracna/icons-feather/assets/tv'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherTvElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_TV
+    this.src = ICON_F_TV
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_PERCENT } from '@aracna/icons-feather/assets/percent'
+import { ICON_F_PERCENT } from '@aracna/icons-feather/assets/percent'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherPercentElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_PERCENT
+    this.src = ICON_F_PERCENT
   }
 }
 

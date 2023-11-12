@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MENU } from '@aracna/icons-feather/assets/menu'
+import { ICON_F_MENU } from '@aracna/icons-feather/assets/menu'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherMenuElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_MENU
+    this.src = ICON_F_MENU
   }
 }
 

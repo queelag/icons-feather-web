@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CLOUD_SNOW } from '@aracna/icons-feather/assets/cloud-snow'
+import { ICON_F_CLOUD_SNOW } from '@aracna/icons-feather/assets/cloud-snow'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherCloudSnowElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_CLOUD_SNOW
+    this.src = ICON_F_CLOUD_SNOW
   }
 }
 

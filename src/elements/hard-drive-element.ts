@@ -1,4 +1,4 @@
-import { ICON_FEATHER_HARD_DRIVE } from '@aracna/icons-feather/assets/hard-drive'
+import { ICON_F_HARD_DRIVE } from '@aracna/icons-feather/assets/hard-drive'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherHardDriveElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_HARD_DRIVE
+    this.src = ICON_F_HARD_DRIVE
   }
 }
 

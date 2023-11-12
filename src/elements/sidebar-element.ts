@@ -1,4 +1,4 @@
-import { ICON_FEATHER_SIDEBAR } from '@aracna/icons-feather/assets/sidebar'
+import { ICON_F_SIDEBAR } from '@aracna/icons-feather/assets/sidebar'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherSidebarElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_SIDEBAR
+    this.src = ICON_F_SIDEBAR
   }
 }
 

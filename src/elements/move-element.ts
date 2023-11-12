@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MOVE } from '@aracna/icons-feather/assets/move'
+import { ICON_F_MOVE } from '@aracna/icons-feather/assets/move'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherMoveElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_MOVE
+    this.src = ICON_F_MOVE
   }
 }
 

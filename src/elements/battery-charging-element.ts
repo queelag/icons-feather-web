@@ -1,4 +1,4 @@
-import { ICON_FEATHER_BATTERY_CHARGING } from '@aracna/icons-feather/assets/battery-charging'
+import { ICON_F_BATTERY_CHARGING } from '@aracna/icons-feather/assets/battery-charging'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherBatteryChargingElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_BATTERY_CHARGING
+    this.src = ICON_F_BATTERY_CHARGING
   }
 }
 

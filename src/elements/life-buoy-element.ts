@@ -1,4 +1,4 @@
-import { ICON_FEATHER_LIFE_BUOY } from '@aracna/icons-feather/assets/life-buoy'
+import { ICON_F_LIFE_BUOY } from '@aracna/icons-feather/assets/life-buoy'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherLifeBuoyElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_LIFE_BUOY
+    this.src = ICON_F_LIFE_BUOY
   }
 }
 

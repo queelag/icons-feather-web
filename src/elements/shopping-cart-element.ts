@@ -1,4 +1,4 @@
-import { ICON_FEATHER_SHOPPING_CART } from '@aracna/icons-feather/assets/shopping-cart'
+import { ICON_F_SHOPPING_CART } from '@aracna/icons-feather/assets/shopping-cart'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherShoppingCartElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_SHOPPING_CART
+    this.src = ICON_F_SHOPPING_CART
   }
 }
 

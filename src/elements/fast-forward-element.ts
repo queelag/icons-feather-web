@@ -1,4 +1,4 @@
-import { ICON_FEATHER_FAST_FORWARD } from '@aracna/icons-feather/assets/fast-forward'
+import { ICON_F_FAST_FORWARD } from '@aracna/icons-feather/assets/fast-forward'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherFastForwardElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_FAST_FORWARD
+    this.src = ICON_F_FAST_FORWARD
   }
 }
 

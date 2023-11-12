@@ -1,4 +1,4 @@
-import { ICON_FEATHER_AIRPLAY } from '@aracna/icons-feather/assets/airplay'
+import { ICON_F_AIRPLAY } from '@aracna/icons-feather/assets/airplay'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherAirplayElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_AIRPLAY
+    this.src = ICON_F_AIRPLAY
   }
 }
 

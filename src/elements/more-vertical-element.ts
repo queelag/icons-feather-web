@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MORE_VERTICAL } from '@aracna/icons-feather/assets/more-vertical'
+import { ICON_F_MORE_VERTICAL } from '@aracna/icons-feather/assets/more-vertical'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherMoreVerticalElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_MORE_VERTICAL
+    this.src = ICON_F_MORE_VERTICAL
   }
 }
 

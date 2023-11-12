@@ -1,4 +1,4 @@
-import { ICON_FEATHER_FOLDER_MINUS } from '@aracna/icons-feather/assets/folder-minus'
+import { ICON_F_FOLDER_MINUS } from '@aracna/icons-feather/assets/folder-minus'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherFolderMinusElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_FOLDER_MINUS
+    this.src = ICON_F_FOLDER_MINUS
   }
 }
 

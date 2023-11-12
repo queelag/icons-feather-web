@@ -1,4 +1,4 @@
-import { ICON_FEATHER_TWITTER } from '@aracna/icons-feather/assets/twitter'
+import { ICON_F_TWITTER } from '@aracna/icons-feather/assets/twitter'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherTwitterElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_TWITTER
+    this.src = ICON_F_TWITTER
   }
 }
 

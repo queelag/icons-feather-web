@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MOUSE_POINTER } from '@aracna/icons-feather/assets/mouse-pointer'
+import { ICON_F_MOUSE_POINTER } from '@aracna/icons-feather/assets/mouse-pointer'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherMousePointerElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_MOUSE_POINTER
+    this.src = ICON_F_MOUSE_POINTER
   }
 }
 

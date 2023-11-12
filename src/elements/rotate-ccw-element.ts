@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ROTATE_CCW } from '@aracna/icons-feather/assets/rotate-ccw'
+import { ICON_F_ROTATE_CCW } from '@aracna/icons-feather/assets/rotate-ccw'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherRotateCcwElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_ROTATE_CCW
+    this.src = ICON_F_ROTATE_CCW
   }
 }
 

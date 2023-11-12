@@ -1,4 +1,4 @@
-import { ICON_FEATHER_GIT_PULL_REQUEST } from '@aracna/icons-feather/assets/git-pull-request'
+import { ICON_F_GIT_PULL_REQUEST } from '@aracna/icons-feather/assets/git-pull-request'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherGitPullRequestElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_GIT_PULL_REQUEST
+    this.src = ICON_F_GIT_PULL_REQUEST
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_DOWNLOAD } from '@aracna/icons-feather/assets/download'
+import { ICON_F_DOWNLOAD } from '@aracna/icons-feather/assets/download'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherDownloadElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_DOWNLOAD
+    this.src = ICON_F_DOWNLOAD
   }
 }
 

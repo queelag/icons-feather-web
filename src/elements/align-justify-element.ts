@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ALIGN_JUSTIFY } from '@aracna/icons-feather/assets/align-justify'
+import { ICON_F_ALIGN_JUSTIFY } from '@aracna/icons-feather/assets/align-justify'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherAlignJustifyElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_ALIGN_JUSTIFY
+    this.src = ICON_F_ALIGN_JUSTIFY
   }
 }
 

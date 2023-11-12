@@ -1,4 +1,4 @@
-import { ICON_FEATHER_VOLUME_X } from '@aracna/icons-feather/assets/volume-x'
+import { ICON_F_VOLUME_X } from '@aracna/icons-feather/assets/volume-x'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherVolumeXElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_VOLUME_X
+    this.src = ICON_F_VOLUME_X
   }
 }
 

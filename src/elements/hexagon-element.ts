@@ -1,4 +1,4 @@
-import { ICON_FEATHER_HEXAGON } from '@aracna/icons-feather/assets/hexagon'
+import { ICON_F_HEXAGON } from '@aracna/icons-feather/assets/hexagon'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherHexagonElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_HEXAGON
+    this.src = ICON_F_HEXAGON
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ALERT_CIRCLE } from '@aracna/icons-feather/assets/alert-circle'
+import { ICON_F_ALERT_CIRCLE } from '@aracna/icons-feather/assets/alert-circle'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherAlertCircleElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_ALERT_CIRCLE
+    this.src = ICON_F_ALERT_CIRCLE
   }
 }
 

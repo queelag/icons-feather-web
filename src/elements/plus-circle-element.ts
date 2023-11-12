@@ -1,4 +1,4 @@
-import { ICON_FEATHER_PLUS_CIRCLE } from '@aracna/icons-feather/assets/plus-circle'
+import { ICON_F_PLUS_CIRCLE } from '@aracna/icons-feather/assets/plus-circle'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherPlusCircleElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_PLUS_CIRCLE
+    this.src = ICON_F_PLUS_CIRCLE
   }
 }
 

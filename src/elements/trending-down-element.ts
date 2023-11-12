@@ -1,4 +1,4 @@
-import { ICON_FEATHER_TRENDING_DOWN } from '@aracna/icons-feather/assets/trending-down'
+import { ICON_F_TRENDING_DOWN } from '@aracna/icons-feather/assets/trending-down'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherTrendingDownElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_TRENDING_DOWN
+    this.src = ICON_F_TRENDING_DOWN
   }
 }
 

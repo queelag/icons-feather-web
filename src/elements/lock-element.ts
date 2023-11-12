@@ -1,4 +1,4 @@
-import { ICON_FEATHER_LOCK } from '@aracna/icons-feather/assets/lock'
+import { ICON_F_LOCK } from '@aracna/icons-feather/assets/lock'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherLockElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_LOCK
+    this.src = ICON_F_LOCK
   }
 }
 

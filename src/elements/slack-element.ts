@@ -1,4 +1,4 @@
-import { ICON_FEATHER_SLACK } from '@aracna/icons-feather/assets/slack'
+import { ICON_F_SLACK } from '@aracna/icons-feather/assets/slack'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherSlackElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_SLACK
+    this.src = ICON_F_SLACK
   }
 }
 

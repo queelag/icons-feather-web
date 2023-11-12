@@ -1,4 +1,4 @@
-import { ICON_FEATHER_SEND } from '@aracna/icons-feather/assets/send'
+import { ICON_F_SEND } from '@aracna/icons-feather/assets/send'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherSendElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_SEND
+    this.src = ICON_F_SEND
   }
 }
 

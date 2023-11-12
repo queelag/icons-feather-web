@@ -1,4 +1,4 @@
-import { ICON_FEATHER_INSTAGRAM } from '@aracna/icons-feather/assets/instagram'
+import { ICON_F_INSTAGRAM } from '@aracna/icons-feather/assets/instagram'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherInstagramElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_INSTAGRAM
+    this.src = ICON_F_INSTAGRAM
   }
 }
 

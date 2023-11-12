@@ -1,4 +1,4 @@
-import { ICON_FEATHER_LOG_OUT } from '@aracna/icons-feather/assets/log-out'
+import { ICON_F_LOG_OUT } from '@aracna/icons-feather/assets/log-out'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherLogOutElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_LOG_OUT
+    this.src = ICON_F_LOG_OUT
   }
 }
 

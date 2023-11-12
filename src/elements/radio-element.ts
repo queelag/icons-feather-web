@@ -1,4 +1,4 @@
-import { ICON_FEATHER_RADIO } from '@aracna/icons-feather/assets/radio'
+import { ICON_F_RADIO } from '@aracna/icons-feather/assets/radio'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherRadioElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_RADIO
+    this.src = ICON_F_RADIO
   }
 }
 

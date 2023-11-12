@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CPU } from '@aracna/icons-feather/assets/cpu'
+import { ICON_F_CPU } from '@aracna/icons-feather/assets/cpu'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherCpuElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_CPU
+    this.src = ICON_F_CPU
   }
 }
 

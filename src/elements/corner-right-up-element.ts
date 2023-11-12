@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CORNER_RIGHT_UP } from '@aracna/icons-feather/assets/corner-right-up'
+import { ICON_F_CORNER_RIGHT_UP } from '@aracna/icons-feather/assets/corner-right-up'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherCornerRightUpElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_CORNER_RIGHT_UP
+    this.src = ICON_F_CORNER_RIGHT_UP
   }
 }
 

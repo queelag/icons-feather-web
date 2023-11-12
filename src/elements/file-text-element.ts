@@ -1,4 +1,4 @@
-import { ICON_FEATHER_FILE_TEXT } from '@aracna/icons-feather/assets/file-text'
+import { ICON_F_FILE_TEXT } from '@aracna/icons-feather/assets/file-text'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherFileTextElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_FILE_TEXT
+    this.src = ICON_F_FILE_TEXT
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CROP } from '@aracna/icons-feather/assets/crop'
+import { ICON_F_CROP } from '@aracna/icons-feather/assets/crop'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherCropElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_CROP
+    this.src = ICON_F_CROP
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_VIDEO_OFF } from '@aracna/icons-feather/assets/video-off'
+import { ICON_F_VIDEO_OFF } from '@aracna/icons-feather/assets/video-off'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherVideoOffElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_VIDEO_OFF
+    this.src = ICON_F_VIDEO_OFF
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ZAP } from '@aracna/icons-feather/assets/zap'
+import { ICON_F_ZAP } from '@aracna/icons-feather/assets/zap'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherZapElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_ZAP
+    this.src = ICON_F_ZAP
   }
 }
 

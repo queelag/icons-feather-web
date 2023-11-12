@@ -12,7 +12,7 @@ for (let asset of ASSETS) {
   let name, cname, ename, ts
 
   name = asset.replace('node_modules/@aracna/icons-feather/assets/', '').replace('.cjs', '')
-  cname = 'ICON_FEATHER_' + getSnakeCaseString(name).toUpperCase()
+  cname = 'ICON_F_' + getSnakeCaseString(name).toUpperCase()
   ename = 'IconFeather' + getPascalCaseString(name) + 'Element'
 
   ts = /* HTML */ `

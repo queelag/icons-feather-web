@@ -1,4 +1,4 @@
-import { ICON_FEATHER_DRIBBBLE } from '@aracna/icons-feather/assets/dribbble'
+import { ICON_F_DRIBBBLE } from '@aracna/icons-feather/assets/dribbble'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherDribbbleElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_DRIBBBLE
+    this.src = ICON_F_DRIBBBLE
   }
 }
 

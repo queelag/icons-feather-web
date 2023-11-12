@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MIC } from '@aracna/icons-feather/assets/mic'
+import { ICON_F_MIC } from '@aracna/icons-feather/assets/mic'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherMicElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_MIC
+    this.src = ICON_F_MIC
   }
 }
 

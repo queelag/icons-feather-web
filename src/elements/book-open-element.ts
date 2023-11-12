@@ -1,4 +1,4 @@
-import { ICON_FEATHER_BOOK_OPEN } from '@aracna/icons-feather/assets/book-open'
+import { ICON_F_BOOK_OPEN } from '@aracna/icons-feather/assets/book-open'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherBookOpenElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_BOOK_OPEN
+    this.src = ICON_F_BOOK_OPEN
   }
 }
 

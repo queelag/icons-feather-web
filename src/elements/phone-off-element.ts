@@ -1,4 +1,4 @@
-import { ICON_FEATHER_PHONE_OFF } from '@aracna/icons-feather/assets/phone-off'
+import { ICON_F_PHONE_OFF } from '@aracna/icons-feather/assets/phone-off'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherPhoneOffElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_PHONE_OFF
+    this.src = ICON_F_PHONE_OFF
   }
 }
 

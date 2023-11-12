@@ -1,4 +1,4 @@
-import { ICON_FEATHER_DROPLET } from '@aracna/icons-feather/assets/droplet'
+import { ICON_F_DROPLET } from '@aracna/icons-feather/assets/droplet'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherDropletElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_DROPLET
+    this.src = ICON_F_DROPLET
   }
 }
 

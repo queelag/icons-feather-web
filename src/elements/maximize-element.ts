@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MAXIMIZE } from '@aracna/icons-feather/assets/maximize'
+import { ICON_F_MAXIMIZE } from '@aracna/icons-feather/assets/maximize'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherMaximizeElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_MAXIMIZE
+    this.src = ICON_F_MAXIMIZE
   }
 }
 

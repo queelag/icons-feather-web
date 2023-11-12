@@ -1,4 +1,4 @@
-import { ICON_FEATHER_SEARCH } from '@aracna/icons-feather/assets/search'
+import { ICON_F_SEARCH } from '@aracna/icons-feather/assets/search'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherSearchElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_SEARCH
+    this.src = ICON_F_SEARCH
   }
 }
 

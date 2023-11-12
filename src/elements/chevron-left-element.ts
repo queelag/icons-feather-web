@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CHEVRON_LEFT } from '@aracna/icons-feather/assets/chevron-left'
+import { ICON_F_CHEVRON_LEFT } from '@aracna/icons-feather/assets/chevron-left'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherChevronLeftElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_CHEVRON_LEFT
+    this.src = ICON_F_CHEVRON_LEFT
   }
 }
 

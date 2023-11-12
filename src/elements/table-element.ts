@@ -1,4 +1,4 @@
-import { ICON_FEATHER_TABLE } from '@aracna/icons-feather/assets/table'
+import { ICON_F_TABLE } from '@aracna/icons-feather/assets/table'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherTableElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_TABLE
+    this.src = ICON_F_TABLE
   }
 }
 

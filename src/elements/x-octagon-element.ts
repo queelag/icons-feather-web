@@ -1,4 +1,4 @@
-import { ICON_FEATHER_X_OCTAGON } from '@aracna/icons-feather/assets/x-octagon'
+import { ICON_F_X_OCTAGON } from '@aracna/icons-feather/assets/x-octagon'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherXOctagonElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_X_OCTAGON
+    this.src = ICON_F_X_OCTAGON
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ZAP_OFF } from '@aracna/icons-feather/assets/zap-off'
+import { ICON_F_ZAP_OFF } from '@aracna/icons-feather/assets/zap-off'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherZapOffElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_ZAP_OFF
+    this.src = ICON_F_ZAP_OFF
   }
 }
 

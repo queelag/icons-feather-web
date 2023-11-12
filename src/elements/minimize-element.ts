@@ -1,4 +1,4 @@
-import { ICON_FEATHER_MINIMIZE } from '@aracna/icons-feather/assets/minimize'
+import { ICON_F_MINIMIZE } from '@aracna/icons-feather/assets/minimize'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherMinimizeElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_MINIMIZE
+    this.src = ICON_F_MINIMIZE
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_BOOKMARK } from '@aracna/icons-feather/assets/bookmark'
+import { ICON_F_BOOKMARK } from '@aracna/icons-feather/assets/bookmark'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherBookmarkElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_BOOKMARK
+    this.src = ICON_F_BOOKMARK
   }
 }
 

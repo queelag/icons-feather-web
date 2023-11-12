@@ -1,4 +1,4 @@
-import { ICON_FEATHER_UNLOCK } from '@aracna/icons-feather/assets/unlock'
+import { ICON_F_UNLOCK } from '@aracna/icons-feather/assets/unlock'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherUnlockElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_UNLOCK
+    this.src = ICON_F_UNLOCK
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_HEADPHONES } from '@aracna/icons-feather/assets/headphones'
+import { ICON_F_HEADPHONES } from '@aracna/icons-feather/assets/headphones'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherHeadphonesElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_HEADPHONES
+    this.src = ICON_F_HEADPHONES
   }
 }
 

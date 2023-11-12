@@ -1,4 +1,4 @@
-import { ICON_FEATHER_TRASH } from '@aracna/icons-feather/assets/trash'
+import { ICON_F_TRASH } from '@aracna/icons-feather/assets/trash'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherTrashElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_TRASH
+    this.src = ICON_F_TRASH
   }
 }
 

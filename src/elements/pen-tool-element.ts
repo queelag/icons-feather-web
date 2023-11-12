@@ -1,4 +1,4 @@
-import { ICON_FEATHER_PEN_TOOL } from '@aracna/icons-feather/assets/pen-tool'
+import { ICON_F_PEN_TOOL } from '@aracna/icons-feather/assets/pen-tool'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherPenToolElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_PEN_TOOL
+    this.src = ICON_F_PEN_TOOL
   }
 }
 

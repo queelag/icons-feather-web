@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CLOCK } from '@aracna/icons-feather/assets/clock'
+import { ICON_F_CLOCK } from '@aracna/icons-feather/assets/clock'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherClockElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_CLOCK
+    this.src = ICON_F_CLOCK
   }
 }
 

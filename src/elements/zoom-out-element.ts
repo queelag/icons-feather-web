@@ -1,4 +1,4 @@
-import { ICON_FEATHER_ZOOM_OUT } from '@aracna/icons-feather/assets/zoom-out'
+import { ICON_F_ZOOM_OUT } from '@aracna/icons-feather/assets/zoom-out'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherZoomOutElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_ZOOM_OUT
+    this.src = ICON_F_ZOOM_OUT
   }
 }
 

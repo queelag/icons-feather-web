@@ -1,4 +1,4 @@
-import { ICON_FEATHER_GITLAB } from '@aracna/icons-feather/assets/gitlab'
+import { ICON_F_GITLAB } from '@aracna/icons-feather/assets/gitlab'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherGitlabElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_GITLAB
+    this.src = ICON_F_GITLAB
   }
 }
 

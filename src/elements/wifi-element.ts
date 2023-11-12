@@ -1,4 +1,4 @@
-import { ICON_FEATHER_WIFI } from '@aracna/icons-feather/assets/wifi'
+import { ICON_F_WIFI } from '@aracna/icons-feather/assets/wifi'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherWifiElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_WIFI
+    this.src = ICON_F_WIFI
   }
 }
 

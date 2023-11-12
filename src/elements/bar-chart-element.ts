@@ -1,4 +1,4 @@
-import { ICON_FEATHER_BAR_CHART } from '@aracna/icons-feather/assets/bar-chart'
+import { ICON_F_BAR_CHART } from '@aracna/icons-feather/assets/bar-chart'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherBarChartElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_BAR_CHART
+    this.src = ICON_F_BAR_CHART
   }
 }
 

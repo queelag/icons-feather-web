@@ -1,4 +1,4 @@
-import { ICON_FEATHER_EDIT_3 } from '@aracna/icons-feather/assets/edit-3'
+import { ICON_F_EDIT_3 } from '@aracna/icons-feather/assets/edit-3'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherEdit3Element extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_EDIT_3
+    this.src = ICON_F_EDIT_3
   }
 }
 

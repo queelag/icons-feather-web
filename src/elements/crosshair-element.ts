@@ -1,4 +1,4 @@
-import { ICON_FEATHER_CROSSHAIR } from '@aracna/icons-feather/assets/crosshair'
+import { ICON_F_CROSSHAIR } from '@aracna/icons-feather/assets/crosshair'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherCrosshairElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_CROSSHAIR
+    this.src = ICON_F_CROSSHAIR
   }
 }
 

@@ -1,4 +1,4 @@
-import { ICON_FEATHER_AT_SIGN } from '@aracna/icons-feather/assets/at-sign'
+import { ICON_F_AT_SIGN } from '@aracna/icons-feather/assets/at-sign'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherAtSignElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_AT_SIGN
+    this.src = ICON_F_AT_SIGN
   }
 }
 

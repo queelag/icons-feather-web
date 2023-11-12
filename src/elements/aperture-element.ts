@@ -1,4 +1,4 @@
-import { ICON_FEATHER_APERTURE } from '@aracna/icons-feather/assets/aperture'
+import { ICON_F_APERTURE } from '@aracna/icons-feather/assets/aperture'
 import { defineCustomElement } from '@aracna/web'
 import { IconFeatherElement } from '../icon-feather-element.js'
 
@@ -11,7 +11,7 @@ declare global {
 export class IconFeatherApertureElement extends IconFeatherElement {
   constructor() {
     super()
-    this.src = ICON_FEATHER_APERTURE
+    this.src = ICON_F_APERTURE
   }
 }
 
