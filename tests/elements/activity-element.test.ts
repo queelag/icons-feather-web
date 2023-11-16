@@ -9,7 +9,7 @@ describe('IconElement', () => {
   let icon: IconFeatherActivityElement
 
   beforeEach(() => {
-    icon = document.createElement('aracna-icon-feather-activity')
+    icon = document.createElement('icon-feather-activity')
   })
 
   afterEach(() => {
@@ -20,8 +20,8 @@ describe('IconElement', () => {
     await render(icon)
     await wf(() => icon.shadowRoot?.querySelector('polyline'))
 
-    expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('fill')).toBe('none')
-    expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('stroke')).toBe('currentColor')
+    expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('fill')).toBe('inherit')
+    expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('stroke')).toBe('inherit')
     expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('stroke-linecap')).toBe('round')
     expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('stroke-linejoin')).toBe('round')
     expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('stroke-width')).toBe('2')
