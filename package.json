@@ -1,10 +1,10 @@
 {
   "author": "Dario Sechi",
   "devDependencies": {
-    "@aracna/core": "^1.1.73",
-    "@aracna/icons-feather": "^1.0.9",
-    "@aracna/web": "^1.0.66",
-    "@aracna/web-components": "^1.0.72",
+    "@aracna/core": "^1.1.77",
+    "@aracna/icons-feather": "^1.0.10",
+    "@aracna/web": "^1.0.69",
+    "@aracna/web-components": "^1.0.76",
     "@vitest/coverage-v8": "^1.1.0",
     "@vitest/ui": "^1.1.0",
     "@webcomponents/template-shadowroot": "^0.2.1",
@@ -20,6 +20,10 @@
     "tslib": "^2.6.2",
     "typescript": "^5.3.3",
     "vitest": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=8"
   },
   "exports": {
     ".": {
