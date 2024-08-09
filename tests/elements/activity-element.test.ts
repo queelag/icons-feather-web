@@ -1,5 +1,5 @@
 import { wf } from '@aracna/core'
-import { SVG_NAMESPACE_URI } from '@aracna/web'
+import { SVG_NAMESPACE_URI } from '@aracna/web-components'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import '../../src/elements/activity-element'
 import type { IconFeatherActivityElement } from '../../src/elements/activity-element'
@@ -26,7 +26,7 @@ describe('IconElement', () => {
     expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('stroke-linejoin')).toBe('round')
     expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('stroke-width')).toBe('2')
     expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('style')).toBe(
-      'height: 16px; max-height: 16px; max-width: 16px; min-height: 16px; min-width: 16px; width: 16px;'
+      'height:16px;max-height:16px;max-width:16px;min-height:16px;min-width:16px;width:16px;'
     )
     expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('viewBox')).toBe('0 0 24 24')
     expect(icon.shadowRoot?.querySelector('svg')?.getAttribute('xmlns')).toBe(SVG_NAMESPACE_URI)
