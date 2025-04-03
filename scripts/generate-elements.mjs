@@ -1,6 +1,7 @@
 import { getPascalCaseString, getSnakeCaseString } from '@aracna/core'
 import { mkdir, rm, writeFile } from 'fs/promises'
 import { glob } from 'glob'
+import { basename } from 'path'
 import { format } from 'prettier'
 
 const ASSETS = await glob('node_modules/@aracna/icons-feather/assets/*.cjs')
@@ -8,10 +9,10 @@ const ASSETS = await glob('node_modules/@aracna/icons-feather/assets/*.cjs')
 await rm('src/elements', { force: true, recursive: true })
 await mkdir('src/elements')
 
-for (let asset of ASSETS) {
+for (let path of ASSETS) {
   let name, cname, ename, ts
 
-  name = asset.replace('node_modules/@aracna/icons-feather/assets/', '').replace('.cjs', '')
+  name = basename(path).replace('.cjs', '')
   cname = 'ICON_F_' + getSnakeCaseString(name).toUpperCase()
   ename = 'IconFeather' + getPascalCaseString(name) + 'Element'
 
